@@ -1,8 +1,6 @@
 # import tkinter
 from tkinter import *
 
-
-
 root = Tk()  # 建立根窗口 自定义的Tk对象名称，也可以取其它名称
 root.title("url-md")
 root.config(bg='#FFEDDF')
@@ -71,12 +69,6 @@ def get_url():
         l = len(urlformer)
         main.delete(1.0, END)
         main.insert(END, md[0:-l])
-
-
-
-
-
-
 
 
 mwindow()
